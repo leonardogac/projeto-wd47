@@ -20,3 +20,5 @@ function MudaLayout() {
 }
 
 btn.addEventListener('click', MudaLayout)
+
+btn.classList.remove('no-js')
