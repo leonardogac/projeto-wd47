@@ -56,3 +56,12 @@
 	background: currentcolor;
 	border: 5px solid rgba(0,0,0,.5);
 }
+
+.opcoesDoCartao-opcao{
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+.cartao--focado .opcoesDoCartao-opcao,
+.cartao:hover .opcoesDoCartao-opcao{
+	opacity: 1;
+}
